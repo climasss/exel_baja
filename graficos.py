@@ -5,7 +5,7 @@ import io
 
 # Configuração da página
 st.set_page_config(page_title="Gerenciador de Gráficos - Exel Baja", layout="wide")
-st.title("🏎️ Ecxel Baja 3.0 - Analisador de Arquivos")
+st.title("🏎️ Excel Baja 3.0 - Analisador de Arquivos")
 
 # --- UPLOAD DO ARQUIVO ---
 dados = st.file_uploader("Escolha um arquivo CSV", type=['csv', 'txt'])
@@ -84,4 +84,5 @@ if dados is not None:
 
 else:
     st.info("Aguardando upload do arquivo CSV para iniciar a análise.")
+
 
