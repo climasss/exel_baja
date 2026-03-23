@@ -4,7 +4,7 @@ import plotly.graph_objs as go
 import io
 
 # Configuração da página
-st.set_page_config(page_title="Gerenciador de Gráficos - Exel Baja", layout="wide")
+st.set_page_config(page_title="Gerenciador de Gráficos - Excel Baja", layout="wide")
 st.title("🏎️ Excel Baja 3.0 - Analisador de Arquivos")
 
 # --- UPLOAD DO ARQUIVO ---
